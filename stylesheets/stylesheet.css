@@ -4,7 +4,7 @@
 body {
   padding: 0;
   margin: 0;
-  font-family: "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 1.5;
   color: #606c71; }
@@ -18,9 +18,8 @@ a {
 .btn {
   display: inline-block;
   margin-bottom: 1rem;
-  font-weight: 600;
-  color: rgba(29, 69, 142, 0.9);
-  background-color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.7);
+  background-color: rgba(255, 255, 255, 0.08);
   border-color: rgba(255, 255, 255, 0.2);
   border-style: solid;
   border-width: 1px;
@@ -30,9 +29,9 @@ a {
     margin-left: 1rem; }
 
 .btn:hover {
-  color: rgba(29, 69, 142, 1);
+  color: rgba(255, 255, 255, 0.8);
   text-decoration: none;
-  background-color: rgba(255, 255, 255, 0.7);
+  background-color: rgba(255, 255, 255, 0.2);
   border-color: rgba(255, 255, 255, 0.3); }
 
 @media screen and (min-width: 64em) {
@@ -57,8 +56,8 @@ a {
 .page-header {
   color: #fff;
   text-align: center;
-  background-color: #1D458E;
-  background-image: linear-gradient(120deg, #67A0D0, #1D458E); }
+  background-color: #159957;
+  background-image: linear-gradient(120deg, #155799, #159957); }
 
 @media screen and (min-width: 64em) {
   .page-header {
@@ -113,7 +112,7 @@ a {
   margin-top: 2rem;
   margin-bottom: 1rem;
   font-weight: normal;
-  color: #bbb; }
+  color: #159957; }
 .main-content p {
   margin-bottom: 1em; }
 .main-content code {
